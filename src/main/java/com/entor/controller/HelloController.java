@@ -12,4 +12,10 @@ public class HelloController {
     public String hello(){
         return "sb";
     }
+
+    @RequestMapping("/good")
+    @ResponseBody
+    public String good(){
+        return "nt";
+    }
 }
